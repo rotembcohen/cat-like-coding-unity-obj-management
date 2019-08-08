@@ -96,7 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
-  m_LightingDataAsset: {fileID: 112000002, guid: 7eba5495966724a8d82980613e2cccb3,
+  m_LightingDataAsset: {fileID: 112000004, guid: 469c5c649d36e40aca355e2d95c41cc0,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -298,14 +298,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ba3403ccc13c4675b86ef8403bd6bca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  storage: {fileID: 1423411147}
   shapeFactory: {fileID: 11400000, guid: c048f3b3c2ed74790b312dfcf51454bd, type: 2}
   createKey: 99
   newGameKey: 110
   saveKey: 115
   loadKey: 108
   destroyKey: 120
-  storage: {fileID: 1423411147}
-  levelCount: 2
+  levelCount: 3
 --- !u!4 &334603776
 Transform:
   m_ObjectHideFlags: 0
